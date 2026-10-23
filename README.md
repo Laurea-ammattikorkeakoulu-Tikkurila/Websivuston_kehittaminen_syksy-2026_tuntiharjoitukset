@@ -60,7 +60,7 @@ Throughout the course, I will document:
 
 ---
 
-**Author:** Berfin
+**Author:** Berfin Ala-Krekola
 
 **Course:** Website Development Fall 2026
 
