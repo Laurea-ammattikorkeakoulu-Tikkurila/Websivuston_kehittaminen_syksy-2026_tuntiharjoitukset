@@ -1,4 +1,4 @@
-# WS01_HTML – Website Development
+# Website Development
 
 This repository contains coursework, exercises, and project materials for the Website Development course at Laurea University of Applied Sciences.
 
