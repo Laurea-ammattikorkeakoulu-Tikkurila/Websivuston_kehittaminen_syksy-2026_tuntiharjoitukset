@@ -209,13 +209,13 @@ form input[type="email"] {
    parilliset kohdat (2) hieman tummemman - helppo tapa erottaa rivit toisistaan 
    advanced selectors koska tarkennetaan että tietyt (parittomat) muuttuu*/
 ol li:nth-child(odd) {
-    background-color: #d0e8f8;
+    background-color: #dbd0f8;
     border-radius: 4px;
     padding-left: 4px;
 }
 
 ol li:nth-child(even) {
-    background-color: #b8d8f0;
+    background-color: #b8f0c3;
     border-radius: 4px;
     padding-left: 4px;
 }
