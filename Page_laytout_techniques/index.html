@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WS04 – Home</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" href="./images/laurea_logo.png">
+</head>
+
+<body>
+
+    <!-- HEADER: professional site-style header -->
+    <header class="site-header">
+        <div class="site-header__content">
+            <span class="site-header__kicker">Laurea University of Applied Sciences</span>
+            <h1 class="site-header__title">WS04 Home</h1>
+            <div class="site-header__subtitle">Home: overview of the WS04 multi-page layout and navigation</div>
+        </div>
+    </header>
+
+    <!-- NAV: horizontal navbar built with Flexbox -->
+    <nav>
+        <a href="./index.html" class="active">Home</a>
+        <a href="./gallery.html">Gallery</a>
+        <a href="./contact.html">Contact</a>
+
+    </nav>
+
+    <!-- LAYOUT GRID: CSS Grid wrapper – sidebar (aside) + main content -->
+    <div class="layout-grid">
+        <!-- SIDEBAR -->
+        <aside>
+            <h3>Semantic elements</h3>
+            <ul>
+                <li><a href="https://www.w3schools.com/tags/tag_header.asp"><code>&lt;header&gt;</code></a> – site or section header</li>
+                <li><code>&lt;nav&gt;</code> – navigation links</li>
+                <li><code>&lt;main&gt;</code> – primary page content</li>
+                <li><code>&lt;aside&gt;</code> – sidebar / supplementary content</li>
+                <li><code>&lt;footer&gt;</code> – site or section footer</li>
+            </ul>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main>
+
+            <section>
+                <h2>Welcome</h2>
+                <p>This site demonstrates a multi-page layout built with CSS Grid and Flexbox, expanding on the advanced
+                    CSS techniques from WS03.</p>
+            </section>
+
+            <section>
+                <h2>What you will find here</h2>
+                <ol>
+                    <li><a href="gallery.html">Gallery</a> – image showcase with styled lists</li>
+                    <li><a href="contact.html">Contact</a> – styled form with focus effects</li>
+                </ol>
+            </section>
+
+        </main>
+    </div><!-- /.layout-grid -->
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; Laurea ammattikorkeakoulu</p>
+    </footer>
+
+</body>
+
+</html>
